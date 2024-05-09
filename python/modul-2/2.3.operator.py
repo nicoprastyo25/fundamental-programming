@@ -81,3 +81,34 @@ print(x <= y)
 
 print(x is y) # is berarti sama dengan
 print(x is not y) # is not berarti tidak sama dengan
+
+
+# latihan
+
+# Tentukan berapa hasil dari operasi +, -, *, /, %, // dan ** dari kedua variable di bawah!
+# Lalu bandingkan hasil yang ada dengan nilai 30 dengan perbandingan >, <, ==, !=, >=, <= 
+
+variable1 = 0.25
+variable2 = 20
+
+hasil = variable1 + variable2
+print(hasil)
+hasil = variable1 - variable2
+print(hasil)
+hasil = variable1 * variable2
+print(hasil)
+hasil = variable1 / variable2
+print(hasil)
+hasil = variable1 % variable2
+print(hasil)
+hasil = variable1 ** variable2
+print(hasil)
+hasil = variable1 // variable2
+print(hasil)
+
+print(hasil > 30)
+print(hasil < 30)
+print(hasil == 30)
+print(hasil != 30)
+print(hasil >= 30)
+print(hasil <= 30)

@@ -192,3 +192,19 @@ d = {
     "key1"  : "value1",
     "key2" : "value2"
 }
+
+#Latihan
+# Buatlah 2 variable yang memuat string
+# Variable 1 memuat "Hello, "
+# Variable 2 memuat "Python!"
+# Lalu gabungkan kedua string tersebut dan tampung di variable hasil seperti ini
+# hasil = variable1 + variable2
+# Pastikan string yang ada bersifat upper-case
+# Lalu cek apa Data Type dari variable hasil tersebut!
+
+variable1 = "Hello, "
+variable2 = "Python!"
+
+hasil = variable1 + variable2
+
+print(hasil)

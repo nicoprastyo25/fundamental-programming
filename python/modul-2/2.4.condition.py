@@ -83,3 +83,19 @@ if num >= 0:
         print("Nol")
     else:
         print("Angka positif")
+
+# Latihan
+# Buatlah satu logika kondisi yang menentukan jika harga laptop sekian maka 
+# saya akan mempertimbangkan lagi jika harga handphone sekian maka saya akan beli keduanya atau tidak
+# Gunakan teknik NESTED IF!
+harga_laptop = 1000000
+harga_handphone  = 500000
+# output: print("Saya akan beli laptopnya.")
+num = int(input("Masukkan dana buat beli laptop Anda: "))
+if num >= harga_laptop:
+    if num >= (harga_laptop + harga_handphone):
+        print("saya akan beli keduanya")
+    else: 
+        print("Saya akan beli laptopnya.")
+else:
+    print("saya akan mempertimbangkan lagi")
