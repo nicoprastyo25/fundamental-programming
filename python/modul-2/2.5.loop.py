@@ -87,7 +87,7 @@ print(list(range(1,51,3)))
 for x in  list (range(1,11)):
     print(x)
 
-# NESTED LOOP\
+# NESTED LOOP
 
 i = 90
 
@@ -146,3 +146,7 @@ for i in range(1, 121):
         print(i)
     if i == 100:
         break
+
+# Buatlah operasi loop yang akan mencetak angka GENAP dari 1-120
+# Lalu gunakan statement continue agar operasi tidak mencetak angka 12, 56 dan 78
+# Dan juga gunakan statement break agar operasi berhenti hanya sampai di angka 100
