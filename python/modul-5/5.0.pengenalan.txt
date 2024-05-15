@@ -1,0 +1,31 @@
+Virtual Assistant
+di case study kali ini, kita akan coba mengembangkan satu program yang akan bekerja layaknya virtual assistant seperti jarvis atau produk terkenal seperti apple siri, google home, dan amazon alexa
+
+Virtual Assistant
+pada hari ini, virtual assistant tak dipungkiri telah menjadi fitur yang wajib hadir di perangkat-perangkat pintar. pertumbuhan penggunaanya pun cukup cepat seiring semakin banyak pengguna smartphone atau smart home.
+
+buatlah sebuah program yang memiliki ragam fungsi assistant dan dapat mengirimkan email secara otomatis ke beberapa penerima setelah diperintahkan. daftar perima email dimaskkan ke dalam file receiver_list.txt seperti contoh berikut:
+
+pastikan setiap yang dikirim memiliki subjek dan gunakan modul smtplib SMTP protocol client untuk bisa membantu pengiriman email di pemrograman python
+
+gunakan file python main.py yang disediakan untuk mengawali pembuatan program tersebut.
+
+Beberapa fungsi yang ada:
+1. Mengubah Nama
+2. membuat Jadwal
+3. Melihat Jadwal
+4. Melempar Jokes
+5. Mengirim email
+
+pada case study kali ini, kamu akan diminta untuk mempraktikan:
+1. Basic python: condition, loop, function
+2. Advance Python: File Handling, Error Handling, Python Module
+3. Python OOP
+
+Durasi:2-3 Jam
+
+Apa yang harus dilakukan jika mengalami error?
+1. Periksa pesan error yang tertulis diterminal
+2. cek jawaban di global community (Stackoverflow)
+3. diskusikan dengan mentor indonesia ai di discord server
+
