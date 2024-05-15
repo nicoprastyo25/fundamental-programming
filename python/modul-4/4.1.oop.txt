@@ -1,0 +1,26 @@
+KONSEP OOP
+
+Apa itu oop?
+salah satu teknik yang popular untuk menyelesaikan masalah-masalah bahasa pemrograman adalah teknik OOP atau Object Oriented Programming. ini adalah teknik dengan paradigma penyelesaian masalah berbasis objek.
+
+Objek memiliki 2 karakteristik yaitu attribute(sifat) dan method(perilaku). Semisal, objek kucing memiliki:
+1. Attribute (name,type,age,color)
+2. Method (walk,run,play)
+
+Contoh lainnya, kita mendefinisikan objek rumah, maka rumah memiliki:
+1. Attribute (type, style, size, num of floors)
+2. Method (close the door, turn on the light)
+
+Konsep OOP ini pada akhirnya untuk mendukung ide agar file-file python yang kita miliki lebih understandable dan reusable.
+
+istilah yang cukup popular di dunia bahasa pemrograman yaitu DRY(Don't repeat yourself)
+
+Menerapkan OOP pada python
+class Cat:
+    def __init__(self):
+        self.nama = "Meong"
+        self.tipe = "Anggora"
+
+    def run(self):
+    print("Kucing berlari...")
+
