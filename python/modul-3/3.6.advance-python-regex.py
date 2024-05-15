@@ -109,3 +109,4 @@ print(x)
 teks2 = "Nomor ini tidak bisa dihubungi 021 1121 6551, karena sudah di luar area Tokyo"
 x = re.search("r'\b\d{3}\s\d{4}\s\d{4}\b'", teks)
 print(x)
+
